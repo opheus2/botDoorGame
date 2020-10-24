@@ -2,10 +2,10 @@ let doorImage1 = document.querySelector('#door1');
 let doorImage2 = document.querySelector('#door2');
 let doorImage3 = document.querySelector('#door3');
 
-let botDoorPath = 'https://content.codecademy.com/projects/chore-door/images/robot.svg';
-let beachDoor = 'https://content.codecademy.com/projects/chore-door/images/beach.svg';
-let spaceDoor = 'https://content.codecademy.com/projects/chore-door/images/space.svg';
-let closedDoor = 'https://content.codecademy.com/projects/chore-door/images/closed_door.svg';
+let botDoorPath = 'https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/robot.svg';
+let beachDoor = 'https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/beach.svg';
+let spaceDoor = 'https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/space.svg';
+let closedDoor = 'https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/closed_door.svg';
 let numClosedDoors = 3;
 let currentlyPlaying = true;
 let openDoor1;
